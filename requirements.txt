@@ -6,3 +6,4 @@ numpy
 pandas
 openpyxl
 Pillow
+dlib==19.24.0 --only-binary :all:
