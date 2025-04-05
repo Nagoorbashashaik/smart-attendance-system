@@ -1,0 +1,82 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('../static/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Banner */
+.header {
+    background-color: #0047FF;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 0 0 40px 40px;
+    letter-spacing: 2px;
+}
+
+/* Centered Box for Login / Upload */
+.center-box {
+    background: white;
+    width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Staff Icon */
+.center-box img.icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Titles */
+.center-box h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Inputs */
+input[type="text"], input[type="password"], input[type="file"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin-left: 5%;
+    font-weight: bold;
+    color: deeppink;
+    margin-top: 10px;
+}
+
+/* Login & Upload Buttons */
+button, input[type="submit"] {
+    background: #2ECC40;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 90%;
+    margin-top: 20px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background: #28A745;
+}

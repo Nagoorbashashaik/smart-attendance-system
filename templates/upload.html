@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Attendance Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body style="text-align: center; font-family: Arial;">
+    <h1>Upload Group Photo</h1>
+    <form method="POST" action="{{ url_for('upload') }}" enctype="multipart/form-data">
+        <input type="file" name="image" required><br><br>
+        <button type="submit" style="padding: 10px 20px;">Take Attendance</button>
+    </form>
+</body>
+</html>

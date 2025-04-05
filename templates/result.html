@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Result</title>
+</head>
+<body style="text-align: center; font-family: Arial;">
+    <h1>Attendance Marked Successfully</h1>
+    <img src="{{ url_for('static', filename='uploads/' + image_filename) }}"
+         alt="Processed Image" style="max-width: 90%; border: 2px solid #333;" />
+    <br><br>
+    <a href="{{ url_for('download', filename=excel_filename) }}"
+       style="padding: 10px 20px; background-color: green; color: white; text-decoration: none;">
+       Download Attendance Sheet
+    </a>
+</body>
+</html>
